@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Author : kvda-creator -->
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="/../assets/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="/../assets/fontawesome/css/all.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="barAtas">
+            
+        </div>
+        <div class="barKiri">
+            <header>
+                <i class="fa-3x fas fa-map-marked-alt" style="padding-top:10px;padding-left:20px;"><a style="text-decoration: none;color:black;width:100px;" routerLink="/">Maps</a></i>
+            </header>
+            <ul>
+                <li><a class="place-items itemlink" routerLink="/home-address" routerLinkActive="active">My Home</a></li>
+                <li><a class="place-items itemlink" routerLink="/office-address" routerLinkActive="active">Office</a></li>
+                <li><a class="place-items itemlink" routerLink="/school-address" routerLinkActive="active">School</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="container">
+                <p>Welcome to myMaps!</p>
+                <router-outlet></router-outlet>
+            </div> 
+        </div>  
+    </div> 
+</body>
+</html>

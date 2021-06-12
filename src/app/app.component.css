@@ -1,0 +1,18 @@
+.full {
+    width: 800px;
+    height: 400px;
+  }
+
+  .itemlink{
+    display:inline-block;
+    height:80px;
+    width:205px;
+  }
+  .itemlink.active{
+    color:#000;
+  }
+  
+  .itemlink:hover{
+    color: #000;
+    background-color: #43c59e;
+  }
